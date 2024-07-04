@@ -1,0 +1,26 @@
+
+.virtual-keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+    width: 70%;
+  }
+  
+  .key-button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .key-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
